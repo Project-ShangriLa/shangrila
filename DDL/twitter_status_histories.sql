@@ -6,5 +6,5 @@ CREATE TABLE `twitter_status_histories` (
   `created_at` datetime DEFAULT NULL,
   `updated_at` datetime DEFAULT NULL,
   PRIMARY KEY (`id`),
-  KEY `index_twitter_status_histories_on_bases_id_and_get_date` (`bases_id`,`get_date`)
+  KEY `index_twitter_status_histories_on_bases_id` (`bases_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
